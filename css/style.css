@@ -1,0 +1,48 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root
+{
+    --main: #182C61;
+    --main-100: #7e7ee3;
+    --white: #ffffff;
+    --gray-100: #dfe4ea;
+    --gray-200: #ced6e0;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+}
+/* tittle style  */
+.container .heading{
+    padding: 20px 15px;
+    background-color: var(--main);
+    text-align: center;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 2em;
+}
+.search-city{
+    padding: 10px;
+    
+}
+.search-city input,
+.search-city button{
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+}
+.search-city input{
+    border: 1px solid var(--gray-200);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+.search-city button{
+    background-color: var(--main-100);
+    font-weight: 500;
+    border-radius: 10px;
+}
